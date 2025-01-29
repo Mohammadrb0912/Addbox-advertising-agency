@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: 'Mahoor';
+  src: url('./assets/fonts/Mahoor-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Mahoor-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
