@@ -20,7 +20,7 @@ const Pricing = () => {
       {/* 🔥 عنوان اصلی */}
       <h1
         data-aos="fade-down"
-        className="text-lime-500 font-mahoor text-[22px] font-semibold uppercase tracking-widest bg-black px-4 py-2 rounded-lg shadow-lg"
+        className="text-lime-500  text-[22px] font-semibold uppercase tracking-widest bg-black px-4 py-2 rounded-lg shadow-lg"
       >
         ✨ مسیر موفقیت برند شما
       </h1>
@@ -28,7 +28,7 @@ const Pricing = () => {
       {/* ⭐ متن توضیحی */}
       <h1
         data-aos="fade-up"
-        className="text-black font-extrabold lg:text-[48px] text-[36px] lg:leading-[60px] leading-[50px] text-center font-mahoor bg-gradient-to-r from-lime-400 to-black text-transparent bg-clip-text"
+        className="text-black font-extrabold lg:text-[48px] text-[36px] lg:leading-[60px] leading-[50px] text-center  bg-gradient-to-r from-lime-400 to-black text-transparent bg-clip-text"
       >
         🌟 ما فقط تبلیغ نمی‌کنیم، ما برند شما را می‌سازیم!
       </h1>
@@ -43,7 +43,7 @@ const Pricing = () => {
 
           {/* 🎯 عنوان */}
           <div className="w-full flex justify-center">
-            <h1 className="text-lime-500 text-3xl font-extrabold font-mahoor text-center uppercase tracking-wide">
+            <h1 className="text-lime-500 text-3xl font-extrabold  text-center uppercase tracking-wide">
               📊 کشف و استراتژی‌سازی
             </h1>
           </div>
@@ -59,7 +59,7 @@ const Pricing = () => {
               "📈 تحلیل عملکرد فعلی برند برای کشف نقاط قوت و ضعف.",
               "🚀 ایجاد استراتژی رشد پایدار برای توسعه بلندمدت."
             ].map((item, index) => (
-              <p key={index} className="text-white flex justify-start items-center gap-3 font-mahoor text-lg leading-relaxed">
+              <p key={index} className="text-white flex justify-start items-center gap-3  text-lg leading-relaxed">
                 <FaChevronCircleRight className="text-lime-500 size-6" /> {item}
               </p>
             ))}
@@ -73,7 +73,7 @@ const Pricing = () => {
 
           {/* 🎯 عنوان */}
           <div className="w-full flex justify-center">
-            <h1 className="text-lime-500 text-3xl font-extrabold font-mahoor text-center uppercase tracking-wide">
+            <h1 className="text-lime-500 text-3xl font-extrabold  text-center uppercase tracking-wide">
               🎨 خلق و اجرای خلاقانه
             </h1>
           </div>
@@ -89,7 +89,7 @@ const Pricing = () => {
               "🔍 مدیریت شبکه‌های اجتماعی برای ارتباط مداوم با مخاطبان.",
               "🚀 انتشار تبلیغات هدفمند در بسترهای دیجیتال."
             ].map((item, index) => (
-              <p key={index} className="text-white flex justify-start items-center gap-3 font-mahoor text-lg leading-relaxed">
+              <p key={index} className="text-white flex justify-start items-center gap-3  text-lg leading-relaxed">
                 <FaChevronCircleRight className="text-lime-500 size-6" /> {item}
               </p>
             ))}
@@ -103,7 +103,7 @@ const Pricing = () => {
 
           {/* 🎯 عنوان */}
           <div className="w-full flex justify-center">
-            <h1 className="text-lime-500 text-3xl font-extrabold font-mahoor text-center uppercase tracking-wide">
+            <h1 className="text-lime-500 text-3xl font-extrabold  text-center uppercase tracking-wide">
               📈 رشد و بهینه‌سازی
             </h1>
           </div>
@@ -119,7 +119,7 @@ const Pricing = () => {
               "💰 مدیریت بودجه تبلیغات برای بالاترین نرخ بازگشت سرمایه.",
               "🌍 توسعه استراتژی‌های جدید برای رشد پایدار برند."
             ].map((item, index) => (
-              <p key={index} className="text-white flex justify-start items-center gap-3 font-mahoor text-lg leading-relaxed">
+              <p key={index} className="text-white flex justify-start items-center gap-3  text-lg leading-relaxed">
                 <FaChevronCircleRight className="text-lime-500 size-6" /> {item}
               </p>
             ))}

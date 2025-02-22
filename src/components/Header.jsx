@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <nav className="w-full flex bg-black justify-between items-center gap-1 lg:px-16 px-6 py-4 sticky top-0 z-50 shadow-lg">
-      <h1 className="text-white md:text-4xl text-3xl font-bold font-mahoor">
+      <h1 className="text-white md:text-4xl text-3xl font-bold ">
         ادد<span className="text-limegreen italic">باکس</span>
       </h1>
 
@@ -32,7 +32,7 @@ const Header = () => {
         {navItems.map(({ link, path }) => (
           <Link
             key={path}
-            className="text-white uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-limegreen hover:text-black font-mahoor text-[15px] transition-all duration-300"
+            className="text-white uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-limegreen hover:text-black  text-[15px] transition-all duration-300"
             to={path}
             spy={true}
             offset={-100}
@@ -43,7 +43,7 @@ const Header = () => {
         ))}
       </ul>
 
-      <button className="bg-limegreen font-mahoor hover:bg-white text-black px-11 py-3 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden flex-row items-center gap-2">
+      <button className="bg-limegreen  hover:bg-white text-black px-11 py-3 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden flex-row items-center gap-2">
         <FaWhatsapp className="text-black text-[20px]" />
         <a href="https://wa.me/989127221655" target="_blank" rel="noopener noreferrer">ارتباط با ما</a>
       </button>

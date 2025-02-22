@@ -1,13 +1,23 @@
 
-@font-face {
-  font-family: 'Mahoor';
-  src: url('./assets/fonts/Mahoor-Bold.woff2') format('woff2'),
-       url('./assets/fonts/Mahoor-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+
+@font-face{
+  font-family: "DiodrumArabic";
+
+  src: 
+      url("./font2/67c4778336d9edd226af9218351835bd.woff")format("woff"),
+      url("./font2/67c4778336d9edd226af9218351835bd.woff2")format("woff2"),
+      url("./font2/67c4778336d9edd226af9218351835bd.ttf")format("truetype"),
+      url("./font2/67c4778336d9edd226af9218351835bd.eot");
+    
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
 }
 
-
+body {
+  font-family: 'DiodrumArabic' , sans-serif;
+  font-family: "DiodrumArabic";
+}
 
 @tailwind base;
 @tailwind components;

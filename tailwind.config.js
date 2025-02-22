@@ -10,8 +10,8 @@ export default {
         limegreen: '#c9f31d'
       },
       fontFamily: {
-        mahoor: ['Mahoor', 'sans-serif'],
-        ubuntu: ['Ubuntu Sans' , 'sans-serif']
+        DiodrumArabic: ['DiodrumArabic' , 'sans-serif'],
+       
       },
     },
   },

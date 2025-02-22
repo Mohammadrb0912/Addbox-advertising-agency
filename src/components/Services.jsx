@@ -18,7 +18,7 @@ const Services = () => {
     <section id="services" className="w-full py-16 bg-black">
       <div className="w-full text-center mb-12">
         <h1
-          className="text-white text-[36px] lg:text-[48px] font-extrabold font-mahoor tracking-wide leading-tight"
+          className="text-white text-[36px] lg:text-[48px] font-extrabold  tracking-wide leading-tight"
           data-aos="zoom-in"
         >
           {sectionTitle}
@@ -45,10 +45,10 @@ const Services = () => {
               alt={item.title}
               className="w-28 h-28 object-contain"
             />
-            <h1 className="text-[22px] lg:text-[26px] text-white font-bold font-mahoor">
+            <h1 className="text-[22px] lg:text-[26px] text-white font-bold ">
               {item.title}
             </h1>
-            <p className="text-[15px] lg:text-[17px] text-slate-300 font-mahoor leading-6">
+            <p className="text-[15px] lg:text-[17px] text-slate-300  leading-6">
               {item.about}
             </p>
             <button className="text-lime-500 font-semibold flex items-center gap-2 text-[16px]">
